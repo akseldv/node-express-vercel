@@ -1,11 +1,8 @@
-const express = require("express");
-const router = express.Router();
+// const express = require("express");
+// const router = express.Router();
 
-router.get("/", async (req, res, next) => {
-  return res.status(200).json({
-    title: "Express Testing",
-    message: "The app is working properly!",
-  });
-});
+// router.get("/", (req, res) => {
+//   res.send('Hello World')
+// });
 
-module.exports = router;
+// module.exports = router;
